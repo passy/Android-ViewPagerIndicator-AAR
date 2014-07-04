@@ -1,5 +1,8 @@
-Android ViewPagerIndicator
-==========================
+Android ViewPagerIndicator AAR
+==============================
+
+**This is a fork of [Jake Wharton's](https://github.com/JakeWharton) original version
+providing an AAR artifact. Pull requests welcome!**
 
 Paging indicator widgets that are compatible with the `ViewPager` from the
 [Android Support Library][2] to improve discoverability of content.
@@ -10,8 +13,6 @@ Try out the sample application [on the Android Market][10].
 
 These widgets can also be used in conjunction with [ActionBarSherlock][3]!
 
-
-
 Usage
 =====
 
@@ -20,7 +21,7 @@ Usage
   1. Include one of the widgets in your view. This should usually be placed
      adjacent to the `ViewPager` it represents.
 
-        <com.viewpagerindicator.TitlePageIndicator
+        <net.rdrei.android.viewpagerindicator.TitlePageIndicator
             android:id="@+id/titles"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent" />
@@ -76,7 +77,7 @@ If you are a Maven user you can easily include the library by specifying it as
 a dependency:
 
     <dependency>
-      <groupId>com.viewpagerindicator</groupId>
+      <groupId>net.rdrei.android.viewpagerindicator</groupId>
       <artifactId>library</artifactId>
       <version>2.3.1</version>
       <type>apklib</type>
@@ -140,4 +141,4 @@ License
  [7]: http://developer.android.com/guide/developing/projects/projects-eclipse.html
  [8]: http://developer.android.com/guide/developing/projects/projects-eclipse.html#ReferencingLibraryProject
  [9]: https://raw.github.com/JakeWharton/Android-ViewPagerIndicator/master/sample/screens.png
- [10]: https://play.google.com/store/apps/details?id=com.viewpagerindicator.sample
+ [10]: https://play.google.com/store/apps/details?id=net.rdrei.android.viewpagerindicator.sample
