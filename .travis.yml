@@ -1,0 +1,15 @@
+language: android
+jdk: oraclejdk7
+
+android:
+  components:
+    - build-tools-19.1.0
+    - extra-android-support
+    - android-20
+
+  licenses:
+    - android-sdk-license-5be876d5
+    - android-sdk-license-598b93a6
+
+script:
+  - TERM=dumb ./gradlew check
