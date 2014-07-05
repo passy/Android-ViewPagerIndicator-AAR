@@ -1,8 +1,9 @@
 Android ViewPagerIndicator AAR
 ==============================
 
-**This is a fork of [Jake Wharton's](https://github.com/JakeWharton) original version
-providing an AAR artifact. Pull requests welcome!**
+**This is a fork of [Jake Wharton's](https://github.com/JakeWharton)
+fantastic [original work](https://github.com/JakeWharton/Android-ViewPagerIndicator)
+providing an AAR artifact.**
 
 Paging indicator widgets that are compatible with the `ViewPager` from the
 [Android Support Library][2] to improve discoverability of content.
