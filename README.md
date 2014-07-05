@@ -66,28 +66,29 @@ methods.
 Including In Your Project
 -------------------------
 
-Android-ViewPagerIndicator is presented as an [Android library project][7]. A
-standalone JAR is not possible due to the theming capabilities offered by the
-indicator widgets.
+Add the dependency to your `build.gradle`:
 
-You can include this project by [referencing it as a library project][8] in
-Eclipse or ant.
+**Snapshot**
 
-If you are a Maven user you can easily include the library by specifying it as
-a dependency:
+```groovy
+repositories {
+  maven {
+    url 'https://oss.sonatype.org/content/groups/staging/'
+  }
+}
 
-    <dependency>
-      <groupId>net.rdrei.android.viewpagerindicator</groupId>
-      <artifactId>library</artifactId>
-      <version>2.3.1</version>
-      <type>apklib</type>
-    </dependency>
+dependencies {
+  compile 'net.rdrei.android.viewpagerindicator:library:2.5.0-SNAPSHOT'
+}
+```
+
+**Release**
+
+*TBD*
 
 This project depends on the `ViewPager` class which is available in the
 [Android Support Library][2] or [ActionBarSherlock][3]. Details for
 including one of those libraries is available on their respecitve web sites.
-
-
 
 
 Developed By
@@ -138,7 +139,5 @@ License
  [4]: https://github.com/pakerfeldt/android-viewflow
  [5]: https://github.com/franciscojunior
  [6]: https://gist.github.com/1122947
- [7]: http://developer.android.com/guide/developing/projects/projects-eclipse.html
- [8]: http://developer.android.com/guide/developing/projects/projects-eclipse.html#ReferencingLibraryProject
  [9]: https://raw.github.com/JakeWharton/Android-ViewPagerIndicator/master/sample/screens.png
  [10]: https://play.google.com/store/apps/details?id=net.rdrei.android.viewpagerindicator.sample
