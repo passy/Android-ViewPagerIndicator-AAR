@@ -79,7 +79,7 @@ repositories {
 }
 
 dependencies {
-  compile 'net.rdrei.android.viewpagerindicator:library:2.5.0-SNAPSHOT'
+  compile 'net.rdrei.android.viewpagerindicator:library:2.5.0-SNAPSHOT@aar'
 }
 ```
 
@@ -128,11 +128,6 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
-
-
-
-
 
  [1]: https://github.com/pakerfeldt
  [2]: http://developer.android.com/sdk/compatibility-library.html
